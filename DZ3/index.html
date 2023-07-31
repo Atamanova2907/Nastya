@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="2" cellpadding="10" cellspacing="2">
+        <thead>
+            <tr>
+                <td colspan="4" align="center" bgcolor="lightblue">MY FIRST TABLE</td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+        </thead>
+        <tbody>
+             <tr>
+                <td bgcolor="lightblue" align="center">First cell</td>
+                <td bgcolor="lightblue" align="center">Second cell</td>
+                <td colspan="2" rowspan="3" bgcolor="yellow" width="50%" align="center">6 cell merged together</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="yellow" align="center">2 cells merged into one</td>
+                
+            </tr>
+            <tr>
+                <td bgcolor="yellow" cellpadding="5" width="25%" align="center">
+                    <p>1st cell</p>
+                    <p>3rd row</p>
+                </td>
+                <td bgcolor="yellow" width="25%" align="center">
+                    <p>2nd cell</p>
+                    <p> 3rd row</p>
+                </td>
+            </tr>      
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" align="center" bgcolor="yellow" align="center">Do you like tables?</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
